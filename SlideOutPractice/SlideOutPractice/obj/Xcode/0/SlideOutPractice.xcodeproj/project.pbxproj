@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4AD37900000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBE01700000000000000000 /* UIKit.framework */; };
+		2CE076AC0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3071834A0000000000000000 /* MapKit.framework */; };
+		213DF4400000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4EBE200000000000000000 /* Foundation.framework */; };
+		357EC18D0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390FCE2B0000000000000000 /* CoreGraphics.framework */; };
+		3817D6640000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8E3020000000000000000 /* Default-568h@2x.png */; };
+		D4B3EFC00000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10DC4B9A0000000000000000 /* Info.plist */; };
+		3B75FFE60000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F070C840000000000000000 /* Entitlements.plist */; };
+		29A0C0D00000000000000000 /* SlideOutPracticeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D31CD6E0000000000000000 /* SlideOutPracticeViewController_iPhone.xib */; };
+		5F642A400000000000000000 /* SlideOutPracticeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9874F4200000000000000000 /* SlideOutPracticeViewController_iPad.xib */; };
+		3CBF4E6F0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 505B0D000000000000000000 /* AppDelegate.h */; };
+		31D945790000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A52170000000000000000 /* AppDelegate.m */; };
+		70CAE1100000000000000000 /* SlideOutPracticeViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = A9DBAAF00000000000000000 /* SlideOutPracticeViewController.h */; };
+		18AF0A0B0000000000000000 /* SlideOutPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4016A90000000000000000 /* SlideOutPracticeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EEA0E8B0000000000000000 /* SlideOutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SlideOutPractice.app"; path = "SlideOutPractice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBE01700000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		3071834A0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		5A4EBE200000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		390FCE2B0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3BA8E3020000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		10DC4B9A0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		3F070C840000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		2D31CD6E0000000000000000 /* SlideOutPracticeViewController_iPhone.xib */ = {isa = PBXFileReference; name = "SlideOutPracticeViewController_iPhone.xib"; path = "SlideOutPracticeViewController_iPhone.xib"; sourceTree = "<group>"; };
+		9874F4200000000000000000 /* SlideOutPracticeViewController_iPad.xib */ = {isa = PBXFileReference; name = "SlideOutPracticeViewController_iPad.xib"; path = "SlideOutPracticeViewController_iPad.xib"; sourceTree = "<group>"; };
+		505B0D000000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		356A52170000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		A9DBAAF00000000000000000 /* SlideOutPracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SlideOutPracticeViewController.h"; path = "SlideOutPracticeViewController.h"; sourceTree = "<group>"; };
+		1C4016A90000000000000000 /* SlideOutPracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SlideOutPracticeViewController.m"; path = "SlideOutPracticeViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6DDCE60000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AD37900000000000000000 /* UIKit.framework in Frameworks */,
+				2CE076AC0000000000000000 /* MapKit.framework in Frameworks */,
+				213DF4400000000000000000 /* Foundation.framework in Frameworks */,
+				357EC18D0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D874E740000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				282102C00000000000000000 /* SlideOutPractice */,
+				BCB80EC00000000000000000 /* Frameworks */,
+				32D4289A0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32D4289A0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA0E8B0000000000000000 /* SlideOutPractice.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		BCB80EC00000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDBE01700000000000000000 /* UIKit.framework */,
+				3071834A0000000000000000 /* MapKit.framework */,
+				5A4EBE200000000000000000 /* Foundation.framework */,
+				390FCE2B0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		282102C00000000000000000 /* SlideOutPractice */ = {
+			isa = PBXGroup;
+			children = (
+				505B0D000000000000000000 /* AppDelegate.h */,
+				3BA8E3020000000000000000 /* Default-568h@2x.png */,
+				3F070C840000000000000000 /* Entitlements.plist */,
+				10DC4B9A0000000000000000 /* Info.plist */,
+				A9DBAAF00000000000000000 /* SlideOutPracticeViewController.h */,
+				9874F4200000000000000000 /* SlideOutPracticeViewController_iPad.xib */,
+				2D31CD6E0000000000000000 /* SlideOutPracticeViewController_iPhone.xib */,
+				33BB3D560000000000000000 /* Supporting Files */,
+			);
+			name = "SlideOutPractice";
+			sourceTree = "<group>";
+		};
+		33BB3D560000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				356A52170000000000000000 /* AppDelegate.m */,
+				1C4016A90000000000000000 /* SlideOutPracticeViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		139E3F5D0000000000000000 /* SlideOutPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1436E8B10000000000000000 /* Build configuration list for PBXNativeTarget "SlideOutPractice" */;
+			buildPhases = (
+				263F0AE30000000000000000 /* Sources */,
+				1D6DDCE60000000000000000 /* Frameworks */,
+				30F230BD0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SlideOutPractice";
+			productName = "SlideOutPractice";
+			productReference = 1EEA0E8B0000000000000000 /* SlideOutPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB198300000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5F2B63900000000000000000 /* Build configuration list for PBXProject "SlideOutPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D874E740000000000000000;
+			productRefGroup = 32D4289A0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139E3F5D0000000000000000 /* SlideOutPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F230BD0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3817D6640000000000000000 /* Default-568h@2x.png in Resources */,
+				D4B3EFC00000000000000000 /* Info.plist in Resources */,
+				3B75FFE60000000000000000 /* Entitlements.plist in Resources */,
+				29A0C0D00000000000000000 /* SlideOutPracticeViewController_iPhone.xib in Resources */,
+				5F642A400000000000000000 /* SlideOutPracticeViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263F0AE30000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBF4E6F0000000000000000 /* AppDelegate.h in Sources */,
+				31D945790000000000000000 /* AppDelegate.m in Sources */,
+				70CAE1100000000000000000 /* SlideOutPracticeViewController.h in Sources */,
+				18AF0A0B0000000000000000 /* SlideOutPracticeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76EE7DE00000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3B3F905F0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "SlideOutPractice";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F2B63900000000000000000 /* Build configuration list for PBXProject "SlideOutPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EE7DE00000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		1436E8B10000000000000000 /* Build configuration list for PBXNativeTarget "SlideOutPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3F905F0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB198300000000000000000 /* Project object */;
+}
